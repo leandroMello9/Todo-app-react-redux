@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "React com redux.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.7"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0",
+    "node-restful": "^0.2.5",
+    "nodemon": "^1.11.0",
+    "pm2": "^2.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/loader.js",
+    "production" : "pm2 start src/loader.js --name todo-app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandroMello9/Lista-Tarefas-Todo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandroMello9/Lista-Tarefas-Todo/issues"
+  },
+  "homepage": "https://github.com/leandroMello9/Lista-Tarefas-Todo#readme"
+}
